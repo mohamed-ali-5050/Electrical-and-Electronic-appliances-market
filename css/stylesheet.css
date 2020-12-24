@@ -1,0 +1,596 @@
+.container {
+	width: 90%;
+	margin: auto;
+}
+
+/* start header */
+.header {
+	overflow: hidden;
+	height: 154px;
+	width: 100%;
+
+}
+
+/* start logo-search -cart */
+
+.logo-search-cart {
+
+	height: 88px;
+	overflow: hidden;
+
+	margin-bottom: 12px;
+
+}
+
+.logo {
+	width: 15%;
+	float: left;
+	/*    background-color:#444;*/
+	height: 56px;
+	margin-top: 12px;
+	padding-top: 25px;
+	text-align: center;
+	background-image: url("../images/webname2.png");
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+
+.logo p {
+	font-size: 30px;
+	text-align: center;
+	margin: 0;
+}
+
+.search {
+	width: 60%;
+	float: left;
+	background-color: #fff;
+	height: 50px;
+	margin-top: 12px;
+	margin-right: 5%;
+	margin-left: 5%;
+
+	overflow: hidden;
+	border-radius: 14px;
+
+}
+
+.search-word {
+	width: 90%;
+	color: white;
+	height: 50px;
+	float: left;
+
+	background-color: #444444;
+
+}
+
+.search-word p {
+	margin-left: 15px;
+}
+
+.search-image {
+	width: 10%;
+	background-color: #EEFF00;
+	height: 50px;
+	float: right;
+
+}
+
+.search-image img {
+	width: 32px;
+	height: 35px;
+	margin-left: 15px;
+	margin-top: 5px;
+
+}
+
+.cart {
+	width: 15%;
+	float: left;
+	background-color: #EEFF00;
+	height: 56px;
+	margin-top: 12px;
+
+	text-align: center;
+}
+
+.cart img {
+	width: 72px;
+	height: 58px;
+}
+
+/* end logo-search- cart */
+
+/*  Start Categories */
+.categories {
+
+	background-color: #444;
+	height: 62px;
+	width: 100%;
+	color: white;
+	
+	justify-content: space-around;
+}
+
+.categories .container {
+	display: flex;
+	justify-content: space-around;
+}
+
+.categories .container a {
+	height: 100%;
+	padding-top: 20px;
+}
+
+
+
+/* End  Categories */
+
+
+/* end header */
+
+/* start body-screen */
+.body-screen {
+	width: 100%;
+	height: ;
+}
+
+/* start adds */
+#adds {
+	height: 500px;
+	margin-top: 30px;
+	background-image: url(../images/adds.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+
+/* end adds */
+
+/* start body-categories */
+.first-body-categories {
+	overflow: hidden;
+	height: 252px;
+	margin-top: 70px;
+	margin-bottom: 70px;
+
+}
+
+.first-body-categories img {
+	height: 252px;
+	width: 100%;
+}
+
+.Mobiles {
+	float: left;
+	width: 45%;
+
+}
+
+.Laptops {
+	float: left;
+	width: 45%;
+	margin-left: 10%;
+
+
+}
+
+
+/* end body-categories */
+
+/* start mobiles hot deals */
+.hot-deals{
+   
+    background-color: #ddd;
+	padding: 5px;
+    box-shadow: 1px 1px 5px 9px #ccc;
+    margin-top: 40px;
+}
+
+.card-title {
+	height: 50px;
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 5px;
+	padding: 0 20px;
+}
+
+.parent-format{
+    margin-left: -25px;
+    margin-top: -5px;
+   
+}
+.parent{
+    width:300px;
+    height: 50px;
+    float: left;
+    background-color: #444444;
+    color: white;
+    font-size: 17px;
+    
+}
+
+.child{
+    width:36px;
+    float: left;
+    height: 35px;
+    background-color: #444444;
+    transform: rotate(45deg);
+    margin-left: -17px;
+    margin-top: 7px;
+    
+}
+.parent p{
+    margin: 15px;
+}
+
+.card-title button{
+  border-style: none;
+	background-color:#444444 ;
+	border-radius: 0;
+    color: white;
+    width: 12%;
+    height: 45px;
+    margin-top: 2px;
+    cursor:pointer;
+}
+.card-title h2{
+    margin-top: 15px;
+    display: inline;
+}
+
+.card {
+	display: flex;
+	justify-content: space-around;
+}
+
+/* end mobiles hot deals */
+
+/* start following categories */
+.second-body-categories {
+	overflow: hidden;
+	height: 252px;
+	margin-top: 70px;
+	margin-bottom: 70px;
+}
+
+.second-body-categories img {
+	width: 100%;
+	height: 252px;
+}
+
+
+.telivisions {
+	float: left;
+	width: 45%;
+}
+
+.Air-Conditioners {
+	float: left;
+	width: 45%;
+	margin-left: 10%;
+}
+
+/* end following categories */
+
+
+/* start Televisions deals */
+.laptops-deals {
+	overflow: hidden;
+	height: 450px;
+	margin-top: 70px;
+
+}
+
+.laptops-deals .card-title {
+	height: 50px;
+	background-color: cadetblue;
+	overflow: hidden;
+
+}
+
+.laptops-deals .card-title button {
+	float: right;
+	margin-top: 0;
+}
+
+.laptops-deals .card-title h2 {
+	margin-top: 0;
+	display: inline;
+}
+
+
+/* End televisions deals */
+
+/* start third-body-categories */
+
+
+
+
+/* start large-Appliances-deals */
+.large-Appliances-deals {
+	overflow: hidden;
+	height: 450px;
+	margin-top: 0;
+
+}
+
+.large-Appliances-deals .card-title {
+	height: 50px;
+	background-color: cadetblue;
+	overflow: hidden;
+
+}
+
+.large-Appliances-deals .card-title button {
+	float: right;
+	margin-top: 0;
+}
+
+.large-Appliances-deals .card-title h2 {
+	margin-top: 0;
+	display: inline;
+}
+
+/* end large-Appliances-deals */
+
+/* start footer */
+.footer {
+	overflow: hidden;
+	height: 275px;
+	margin-top: 20px;
+	background-color: black;
+}
+
+.contact-info {
+	float: left;
+	width: 28%;
+	height: 187px;
+
+}
+
+.contact-info h3 {
+	color: #9E9E9E;
+	margin-bottom: 0;
+	margin-top: 0;
+	letter-spacing: 2px;
+}
+
+.contact-info p {
+	color: white;
+	line-height: 1.5;
+	margin-top: 10px;
+
+}
+
+.final-cat {
+	float: left;
+	width: 28%;
+	margin-left: 8%;
+	height: 187px;
+	overflow: hidden;
+	margin-top: 0;
+}
+
+.final-cat h3 {
+	color: #9E9E9E;
+	margin-bottom: 0;
+	margin-top: 0;
+	letter-spacing: 2px;
+
+}
+
+
+
+.part1 {
+	color: white;
+	float: left;
+}
+
+.part1 p {
+	margin-top: 10px;
+	color: white;
+	line-height: 1.5;
+}
+
+.part2 {
+	color: white;
+	float: left;
+	margin-left: 101px;
+
+}
+
+.part2 p {
+	margin-top: 10px;
+	color: white;
+	line-height: 1.5;
+}
+
+.imortant-links {
+	float: left;
+	width: 28%;
+	margin-left: 8%;
+	overflow: hidden;
+	height: 187px;
+	margin-top: 0;
+}
+
+.imortant-links h3 {
+	color: #9E9E9E;
+	margin-bottom: 0;
+	margin-top: 0;
+	letter-spacing: 2px;
+}
+
+.part3 {
+	color: white;
+	float: left;
+}
+
+.part3 p {
+	margin-top: 10px;
+	line-height: 1.5;
+}
+
+.part4 {
+	color: white;
+	float: left;
+	clear: both;
+
+}
+
+.part4 p {
+	margin-top: 10px;
+	line-height: 1.5;
+	line-height: 1.5;
+	line-height: 1.5;
+}
+
+.copy {
+	margin-top: 20px;
+	width: 90%;
+	margin-top: 40px;
+	padding-top: 174px;
+
+
+
+}
+
+.copy p {
+
+	text-align: center;
+	color: white;
+	font-size: 16px;
+	margin-left: 111px;
+	border-top: 1px solid #9E9E9E;
+	padding-top: 6px;
+
+}
+
+/* end footer */
+
+
+
+
+/* end body-screen */
+
+.frame {
+	width: 100%;
+	height: 1000px;
+	margin: auto;
+
+}
+
+/* start media quiery of main page */
+
+@media(max-width:767px) {
+	.logo {
+		width: 22%
+	}
+
+	.search {
+		width: 57%;
+		margin-left: 1%;
+	}
+
+	.search-word {
+		width: 80%
+            
+	}
+
+	.search-image {
+		width: 20%;
+}
+
+	.footer {
+		height: 500px;
+	}
+
+	.contact-info {
+		width: 100%;
+		height: 127px;
+		margin-top: -9px;
+	}
+
+	.contact-info p {
+		margin-left: 0;
+	}
+
+	.final-cat {
+		width: 100%;
+		margin-left: 0;
+		height: 143px;
+		overflow: hidden;
+		margin-top: 35px;
+	}
+
+	.part1 p {
+		margin-bottom: 0;
+		line-height: 1.7;
+		margin-top: 10px
+	}
+
+	.part2 {
+		margin-left: 97px;
+	}
+
+	.part2 p {
+		margin-top: 10px;
+		line-height: 1.7;
+	}
+
+	.imortant-links {
+		width: 100%;
+		margin-left: 0;
+		overflow: hidden;
+		height: 92px;
+		margin-top: 0px;
+	}
+
+	.part3 p {
+		margin-bottom: 0;
+		line-height: 1.7;
+		margin-top: 10px;
+
+	}
+
+	.part4 {
+		margin-left: 0;
+		margin-left: 34px;
+	}
+
+	.part4 p {
+		margin-top: 10px;
+		line-height: 1.7;
+	}
+
+	.copy {
+		padding-top: 400px;
+		width: 100%;
+		margin-top: 33px;
+	}
+
+	.copy p {
+		text-align: center;
+		margin-left: 0px;
+
+	}
+
+}
+
+@media(max-width:1190px) {
+	.card .item {
+		width: 30%;
+	}
+
+	.card {
+		flex-wrap: wrap;
+	}
+
+	.card .item .buadd {
+		font-size: 1em;
+	}
+}
+
+/* end media quiery of main page */

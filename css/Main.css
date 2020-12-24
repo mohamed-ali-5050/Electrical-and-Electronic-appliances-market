@@ -1,0 +1,227 @@
+
+        
+        /* Srart Discreption*/
+.disc{
+    width:100%;
+    height:auto;
+    background-color:green;
+}
+.disc .container h2 {
+    margin:auto;
+   
+}
+.disc .container p{
+    margin-bottom:0px;
+}
+        /* End Discreption*/
+        /*Start About Us*/
+.about-us{
+    width:100%;
+    height:800px;
+}
+.about-us h1{
+    position: relative;
+    left: -490px;
+}
+
+.about-us .why h1{
+    position: relative;
+    left: -210px;
+}
+.why{
+    width:65%;
+    height:400px;
+    float: left;
+}
+.why h2{
+    margin-left: 40px
+}
+.why2{
+    width:35%;
+    height: 400px;
+    float: left;
+    margin-top: 120px;
+}
+.why2 h2{
+    margin-left: 42px;
+}
+.one{
+    width: 100%;
+    height: 500px
+}
+        /*End About Us*/
+        /* Start Our Team*/
+.our-team {
+    width:100%;
+    height:1800px;
+    margin-top: 40px;
+}
+.raw1 h1{
+    color:#EEFF00;
+    font-size: 100px;
+}
+.raw2 h1 {
+  color: #EEFF00; 
+}
+.raw2 {
+    width:500px;
+    height: 200px;
+    position: absolute;
+    left:28%;
+    top:1200px;
+    
+}
+.raw2 h1 {
+    font-size: 100px;
+}
+#mostafa,#seif,#fathy,#ali{
+    height: 300px;
+    width: 100%;
+    margin-top:150px;
+}
+#mostafa{
+    margin-top:200px
+}
+.our-team  .image img{
+    width:200px;
+    height:200px;
+    border-radius:50%;
+}
+.our-team .image{
+    position: absolute;
+    left:40%;
+    width:200px;
+    height:200px;
+    border-radius: 50%;
+    box-shadow:0px 0px 15px gray;
+    border:5px;
+}
+ .our-team #mostafa  .info{
+    position: absolute;
+    right:0%; 
+    width:60%;
+    height:300px;
+}
+ .our-team #seif .info{
+    position: absolute;
+     left:0%;
+    width:60%;
+    height:300px;
+}
+ .our-team #fathy  .info{
+    position: absolute;
+    right:0%;
+    width:60%;
+    height:300px;
+}
+ .our-team #ali  .info{
+    position: absolute;
+    left:0%;
+    width:60%;
+    height:300px;
+}
+.our-team .container .info h1,p{
+    margin-right:100px;
+}
+.our-team .line1{
+    width:4px;
+    height:249px;
+    float:left;
+    /*margin-left:640px;*/
+    position: absolute;
+    left:47.4%;
+    top:1613px;
+    background-color:gray;
+}
+.our-team .line2{
+    width:4px;
+    height:250px;
+    float:left;
+    /*margin-left:640px;*/
+    position: absolute;
+    left:47.4%;
+    top:2062px;
+    background-color:gray;
+}
+.our-team .line3{
+    width:4px;
+    height:250px;
+    float:left;
+    /*margin-left:640px;*/
+    position: absolute;
+    left:47.4%;
+    top:2513px;
+    background-color:gray;
+}
+        /*Start Contact-Us*/
+.contact-us{
+    width:100%;
+    height: 750px;
+    background-color:black;
+    float: right;
+    margin-top: 20px;
+}
+      /*Start Information*/
+.infor{
+    margin-right: 5%;
+    width:50%;
+    float:left;
+}
+.contact-us .container h1,p{
+    color:#9E9E9E;
+    margin-left:40PX;
+    margin-top:40px; 
+}
+.contact-us .container strong{
+    color:#D1D6DA;
+}
+.contact-us .container span{
+    color:#6A6E71;  
+}
+      /*End Information*/
+      /* Start Form*/
+.form{
+    margin-top: 60px;
+    width:45%;
+    height:auto;
+    float:right;
+}
+ 
+.contact-us .container .form label{
+    display: block;
+    color:#9E9E9E;
+    margin:10px 0;
+}
+.contact-us .container .form input[type="text"]{
+    background-color:white;
+    color:#FFF;
+    padding: 10px;
+    border:0;
+    width:80%;
+    margin-bottom: 10px;
+}
+.contact-us .container .form input[type="number"]{
+    background-color:white;
+    color:#FFF;
+    padding: 10px;
+    border:0;
+    width:80%;
+    margin-bottom: 10px;
+}
+.contact-us .container .form textarea{
+    background-color:white;
+    color:#FFF;
+    padding: 10px;
+    border:0;
+    width:80%;
+    margin-bottom: 10px;
+    height:300px;
+}
+.contact-us .container .form input[type="submit"]{
+    background-color:white;
+    
+    padding:10px 20px;
+    border:0;
+    margin-top: 10px;
+    cursor: pointer;
+}
